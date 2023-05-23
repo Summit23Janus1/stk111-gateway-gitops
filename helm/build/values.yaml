@@ -1,0 +1,15 @@
+app:
+  name: stk111-poi-gateway-app
+  namespace: stk111
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/stk111-gateway
+  org: Summit23Janus1
+  name: stk111-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: stk111/poi-gateway-app
+  tag: latest
